@@ -19,3 +19,9 @@
 # LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
+
+# Script is not ready to use
+
+$domain=""
+$Client_Hostname=""
+sudo dsconfigad -preferred $domain -a $Client_Hostname –domain example.tld -u administrator -p password
